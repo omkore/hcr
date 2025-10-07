@@ -14,7 +14,7 @@ import Courses from './pages/Courses';
 import HCR from './pages/HCR';
 import api from './services/api';
 import Login from './pages/Login';
-import Signup from './pages/SignUp';
+import Signup from './pages/Signup';
 import StudentDashboard from './pages/StudentDashboard';
 import FacultyDashboard from './pages/FacultyDashboard';
 import TeacherStudents from './pages/FacultyStudents'   // ✅ new page
