@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'hhttps://hcr-backend-17kt.onrender.com',
+  baseURL: 'https://hcr-dvrp.onrender.com/',
    withCredentials: true,
 });
 api.interceptors.request.use(config => {

@@ -87,7 +87,7 @@ mongoose.connect("mongodb+srv://omkore:omkore@cluster0.gk5uewv.mongodb.net/?retr
 
 // Middleware
 app.use(cors({
-  origin: "https://hcr-backend-17kt.onrender.com", // your frontend
+  origin: "http://localhost:5173", // your frontend
   credentials: true,
 }));
 app.use(express.json());
